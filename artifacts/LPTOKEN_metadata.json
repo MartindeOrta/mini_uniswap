@@ -301,6 +301,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "price",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "renounceOwnership",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -521,7 +534,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lp.sol": "Theter"
+			"lp.sol": "LPTOKEN"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -584,11 +597,11 @@
 			]
 		},
 		"lp.sol": {
-			"keccak256": "0x6d64446418527fb8e7de2924044674d4c5f5898861524e76194f1279199fe375",
+			"keccak256": "0xbf61b44b25eb4c6d58abbc1accab9c972791de568605a4c12ef1bbb394c23f74",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bb194a4d3a63da61c285136222ecb9a5169441da8fc6d8bb9d4c2d72e448b1a2",
-				"dweb:/ipfs/QmQyLtmaahnQn1ixTCVXqeFFYWyGspQZeQqrt5EVJdtVuy"
+				"bzz-raw://fa70abb2768aec35283ac77c7241444402ad49be56cd12ac1fd4ada2a4e7e616",
+				"dweb:/ipfs/QmQues2sXvZCVEipehp4hdga9ii1AH1CXgtQr2GkQi41tx"
 			]
 		}
 	},

@@ -274,6 +274,24 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "mint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "name",
 				"outputs": [
@@ -521,7 +539,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lp.sol": "Theter"
+			"usdt2.sol": "Theter2"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -583,12 +601,12 @@
 				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
 			]
 		},
-		"lp.sol": {
-			"keccak256": "0x6d64446418527fb8e7de2924044674d4c5f5898861524e76194f1279199fe375",
+		"usdt2.sol": {
+			"keccak256": "0x32bc650a6c3d6f8f48d06b00042f3aac8182fb5027abaa5a78e27d0270aad373",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bb194a4d3a63da61c285136222ecb9a5169441da8fc6d8bb9d4c2d72e448b1a2",
-				"dweb:/ipfs/QmQyLtmaahnQn1ixTCVXqeFFYWyGspQZeQqrt5EVJdtVuy"
+				"bzz-raw://01d2101a827ee8fcd2868047035b5d2d9e63f8e08afe6893fe3d8b8acb27834e",
+				"dweb:/ipfs/QmSDnaSCMzyq55bTiZerLS5NJs1Du6xAMkAc7j7PnxhsVt"
 			]
 		}
 	},
